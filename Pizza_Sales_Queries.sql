@@ -1,1 +1,1 @@
-select sum(total_price) as Total_Revenue from pizza_sales_
+SELECT FORMAT(SUM(total_price), 'N0') AS Total_Revenue FROM pizza_sales_;
